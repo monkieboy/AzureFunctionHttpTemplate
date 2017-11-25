@@ -1,0 +1,17 @@
+{
+  "author": "Enrico Sada, Mark Gray",
+  "classifications": [],
+  "name": "AzureFunctionHttpTemplate",
+  "identity": "AzureFunctionHttpTemplate",
+  "shortName": "AzureFunctionHttpTemplate",
+  "tags": {
+    "language": "F#",
+    "type": "project"
+  },
+  "sourceName": "AzureFunctionHttpTemplate",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    { "path": "AzureFunctionHttp.fsproj" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "disabled": false,
+  "scriptFile": "AzureFunct.dll",
+  "entryPoint": "%FunctionName%.run",
+  "bindings":
+  [
+      {
+          "type": "httpTrigger",
+          "name": "req",
+          "direction": "in"
+      },
+      {
+        "type": "http",
+        "name": "res",
+        "direction": "out"
+      }
+  ]
+}

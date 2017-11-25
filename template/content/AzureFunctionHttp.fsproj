@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Main.fs" />
+        <Compile Include="Run.fs" />
+        <None Include="function.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.WebJobs" Version="*" />
+        <PackageReference Include="System.Net.Http" Version="*" />
+    </ItemGroup>
+
+</Project>
